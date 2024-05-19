@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.imges{
+  width: 80px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(124,69,133);
+  align-items: center;
+}
+
+.welocomimge{
+  width: 450px;
+}
+
+.Homepage{
+  display: flex;
+  gap: 20px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dataload{
+  display: flex;
+  gap: 20px;
+}
+
+.inpuy{
+  display: flex;
+}
+
+h2:hover{
+  background-color: rgb(255,248,183);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 350px;
+  background-color: aliceblue;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.alingit{
+  margin-left: 450px;
+  margin-top: 100px;
+
+}
+
+.hey{
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: red;
+  width: 320px;
+}
+
+.hey:hover{
+  background-color: skyblue;
+}
